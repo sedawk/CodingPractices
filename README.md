@@ -1,0 +1,2 @@
+# CodingPractices
+Various Coding Practices

@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 
 def all_subsets(given_array):
     subset = [None] * len(given_array)

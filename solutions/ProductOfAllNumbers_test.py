@@ -18,7 +18,7 @@ class TestCase(unittest.TestCase):
         expected = [2, 3, 6]
         actual = ProductOfAllNumbers(numbers)
         assert expected == actual, actual
+    
 
 if __name__ == "__main__":
     unittest.main()
-    

@@ -20,11 +20,11 @@ def cdr(func):
 
 class TestCase(unittest.TestCase):
     def testA(self):
-        print cons(3, 4)
         assert 3 == car(cons(3, 4))
 
     def testB(self):
         assert 4 == cdr(cons(3, 4))
+    
 
 if __name__ == "__main__":
     unittest.main()
